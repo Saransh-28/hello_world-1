@@ -5,11 +5,11 @@ LIB =
 all: main
 
 sgs_clib_2d_double_array:
-	$(CC) $(CFLAGS) -c array.c
+	$(CC) $(CFLAGS) -c 2d_array.c
 
 
 main: sgs_clib_1d_double_array
-	$(CC) $(CFLAGS) array.o main.c -o main
+	$(CC) $(CFLAGS) 2d_array.o main.c -o main
 
 run:
 	./main
