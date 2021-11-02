@@ -1,6 +1,4 @@
-#ifndef _MYFILE_H
-#define _MYFILE_H
-
-void sgs_clib_convert_to_upper(char *message);
-
-#endif
+#ifndef _ARRAY_H
+#define _ARRAY_H
+double *sgs_clib_2d_double_array(double a[3][3]);
+#endif 
